@@ -1,0 +1,7 @@
+/* Estilos para el componente ItemDetailContainer */
+.itemDetailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
