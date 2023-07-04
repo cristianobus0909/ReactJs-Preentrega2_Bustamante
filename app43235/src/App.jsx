@@ -9,6 +9,7 @@ import Cart from './components/Cart/Cart'
 
 
 
+
 function App() {
   return (
     <div className={styles.App}>
@@ -20,6 +21,7 @@ function App() {
             <Route path='/category/:categoryId' element={<ItemListContainer/>} />
             <Route path='Item/:itemId' element={<ItemDetailContainer/>}/>
             <Route path='/cart' element={<Cart/>}/>
+            <Route path='/checkout' element={<Checkout/>}/>
             <Route path='*' element={<h1>404 NOT fOUND</h1>} />
           </Routes>
         </CartProvider>
